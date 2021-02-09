@@ -17,11 +17,11 @@
        <div class="container">
            <div class="cars_container">
                
-                    @foreach ($cars as $item)
+                    
                     <div class="car">
-                        <a href="{{route('product', ['id'=>'product'])}}">{{$item->car_model}}</a>
+                        <h1>pagina del prodotto: {{$product}}</h1>
                     </div>
-                    @endforeach
+                   
                
            </div>
        </div>

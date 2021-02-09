@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'CarController@index');
+Route::get('/store', 'CarController@index')->name('store');
+
+Route::get('/product/{id}', 'CarController@show')->name('product');

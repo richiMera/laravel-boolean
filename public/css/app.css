@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  background-color: black;
+  padding: 100px 90px;
+  min-height: 100vh;
+}
+.container .cars_container {
+  width: 100%;
+  display: flex;
+}
+.container .cars_container .car {
+  width: calc(100% / 4 - 10px);
+  height: 200px;
+  margin: 5px;
+  background-color: red;
+  border-radius: 10px;
+}
+.container .cars_container .car a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
